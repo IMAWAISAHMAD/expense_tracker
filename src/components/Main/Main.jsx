@@ -8,15 +8,13 @@ import useStyles from "./styles";
 
 const Main = () => {
     const classes = useStyles();
-
     return (
         <Card className={classes.root}>
             <CardHeader title="Expense Tracker" subheader="Powered By Speechly"/>
             <CardContent>
                 <Typography align="center" variant="h5">Total Balance $150</Typography>
                 <Typography variant="subtitle1" style={{lineHeight:"1.5em",marginTop:"20px"}}>
-                    {/* InfoCard */}
-                    Try saying: Add income for $100 in category salary for monday...
+                   
                 </Typography>
                 <Divider/>
                 <Form/>
